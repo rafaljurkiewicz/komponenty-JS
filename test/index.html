@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title></title>
+	</head>
+	<body>
+	
+		<!-- Nawigacja -->
+		<nav class="navbar navbar-default">
+  			<div class="container">
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+      				<a class="navbar-brand" href="#">FCA</a>
+    			</div>
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      				<ul class="nav navbar-nav">
+        				<li class="active"><a href="#">Link1<span class="sr-only">(current)</span></a></li>
+        				<li><a href="#">Link2</a></li>
+    					<li><a href="#">Link3</a></li>
+      				</ul>
+	      			<form class="navbar-form navbar-right">
+	        			<div class="form-group">
+	          				<input type="text" class="form-control" placeholder="Search">
+	        			</div>
+	        			<button type="submit" class="btn btn-default">Submit</button>
+	      			</form>
+    			</div>
+  			</div>
+		</nav>
+		
+		<!-- Karuzela -->
+		<div id="my-carousel" class="container carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+  			<ol class="carousel-indicators">
+    			<li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+    			<li data-target="#my-carousel" data-slide-to="1"></li>
+    			<li data-target="#my-carousel" data-slide-to="2"></li>
+    			<li data-target="#my-carousel" data-slide-to="3"></li>
+    			<li data-target="#my-carousel" data-slide-to="4"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+  			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+      				<img src="https://images.pexels.com/photos/575102/pexels-photo-575102.jpeg?h=350&auto=compress&cs=tinysrgb" alt="...">
+          		</div>
+    			<div class="item">
+      				<img src="https://images.pexels.com/photos/586369/pexels-photo-586369.jpeg?h=350&auto=compress&cs=tinysrgb" alt="...">
+    			</div>
+    			<div class="item">
+      				<img src="https://images.pexels.com/photos/310823/pexels-photo-310823.jpeg?h=350&auto=compress&cs=tinysrgb" alt="...">
+    			</div>
+    			<div class="item">
+      				<img src="https://images.pexels.com/photos/312156/pexels-photo-312156.jpeg?h=350&auto=compress&cs=tinysrgb" alt="...">
+    			</div>
+    			<div class="item">
+      				<img src="https://images.pexels.com/photos/321441/pexels-photo-321441.jpeg?h=350&auto=compress&cs=tinysrgb" alt="...">
+    			</div>
+  			</div>
+  			<!-- Controls -->
+  			<a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
+    			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  				<a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
+    			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+		
+		<!-- Karty -->
+		<div class="container tabs">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">O mnie</a></li>
+				<li role="presentation"><a href="#hobby" aria-controls="hobby" role="tab" data-toggle="tab">Hobby</a></li>
+				<li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Kontakt</a></li>
+			</ul>		
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="about">
+					<h3>Kilka słów o mnie</h3>
+					<p>raesent dolor. Nam quis pede turpis egestas. Phasellus tellus augue, ullamcorper tellus hendrerit nulla vitae ante. Curabitur tempor. Quisque at laoreet feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec molestie tristique congue. Proin quis molestie elit, varius nunc interdum faucibus, erat id mi. Pellentesque malesuada fames ac arcu. Donec elementum euismod, quam porta ornare, odio ac erat gravida wisi ultricies odio, sagittis leo, cursus non, dictum vitae, vestibulum lectus ut arcu. Nam pharetra velit in dui. In molestie sagittis. Nulla in faucibus justo. Integer vestibulum vel, eros. Mauris vel pede. Sed nibh condimentum ligula.</p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="hobby">
+					<h3>Moje hobby</h3>
+					<p>raesent dolor. Nam quis pede turpis egestas. Phasellus tellus augue, ullamcorper tellus hendrerit nulla vitae ante. Curabitur tempor. Quisque at laoreet feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec molestie tristique congue. Proin quis molestie elit, varius nunc interdum faucibus, erat id mi. Pellentesque malesuada fames ac arcu. Donec elementum euismod, quam porta ornare, odio ac erat gravida wisi ultricies odio, sagittis leo, cursus non, dictum vitae, vestibulum lectus ut arcu. Nam pharetra velit in dui. In molestie sagittis. Nulla in faucibus justo. Integer vestibulum vel, eros. Mauris vel pede. Sed nibh condimentum ligula.</p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="contact">
+					<h3>Jak się ze mną skontaktować</h3>
+					<p>raesent dolor. Nam quis pede turpis egestas. Phasellus tellus augue, ullamcorper tellus hendrerit nulla vitae ante. Curabitur tempor. Quisque at laoreet feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec molestie tristique congue. Proin quis molestie elit, varius nunc interdum faucibus, erat id mi. Pellentesque malesuada fames ac arcu. Donec elementum euismod, quam porta ornare, odio ac erat gravida wisi ultricies odio, sagittis leo, cursus non, dictum vitae, vestibulum lectus ut arcu. Nam pharetra velit in dui. In molestie sagittis. Nulla in faucibus justo. Integer vestibulum vel, eros. Mauris vel pede. Sed nibh condimentum ligula.</p>
+				</div>
+			</div>	
+		</div>
+		
+		<!--modal-->
+		<div class="container text-center">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			  Więcej</button>
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  	<div class="modal-dialog" role="document">
+			    	<div class="modal-content">
+			      		<div class="modal-header">
+			        		<h3 class="modal-title" id="myModalLabel">Modal title</h3>
+			      		</div>
+			      		<div class="modal-body">
+			        		<p>Nam posuere. Quisque sit amet, ante. Pellentesque placerat. Vivamus ornare, odio lobortis eu, nunc. Integer est. Lorem ipsum non enim ut magna orci vel nulla. Suspendisse fermentum leo ut mi. Suspendisse eu eros. Mauris ultrices. Sed nibh justo, hendrerit nunc faucibus volutpat, erat eu ante. Mauris imperdiet congue id, mattis.</p>
+			      		</div>
+			      		<div class="modal-footer">
+			        		<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			      		</div>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</body>
+</html>
